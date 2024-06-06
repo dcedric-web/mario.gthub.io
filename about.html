@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Mario Fan Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="characters.html">Characters</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h1>Our story</h1>
+        <p>At Mario's, our journey began with a profound love for authentic Italian cuisine, 
+            igniting a passion to share the flavors of Italy with our community. Rooted in 
+            centuries-old culinary traditions, our story is one of dedication to crafting 
+            exceptional dishes that celebrate the essence of Italian gastronomy. From the 
+            simplicity of freshly-made pasta to the complexity of robust sauces, each recipe 
+            reflects our commitment to quality and authenticity. As a family-owned establishment, 
+            we take pride in welcoming our guests into an atmosphere of warmth and hospitality, 
+            where every meal is an opportunity to create lasting memories. With each bite, we invite 
+            you to experience the rich heritage and vibrant flavors that define the essence of Mario's.</p>
+            <h2>Our mission</h2>
+            <p>At Mario's, our mission is to deliver a dining experience that transcends mere sustenance, 
+                encompassing a symphony of flavors, textures, and emotions. We strive to create a culinary 
+                haven where guests can escape the ordinary and indulge in the extraordinary. Our commitment 
+                to excellence is evident in every aspect of our operation, from the meticulous selection of 
+                ingredients to the artful presentation of each dish. More than just a restaurant, Mario's is
+                a sanctuary for food lovers, a place where passion and creativity converge to delight the
+                senses and nourish the soul. Whether you're celebrating a special occasion or simply 
+                savoring a quiet moment of indulgence, we promise to exceed your expectations and leave 
+                you craving more.</p>
+                <h3>Meet our team</h3>
+                <p>At Mario's, our team is a diverse tapestry of talents and passions, united by a shared love for food
+                    and a dedication to creating memorable dining experiences. From our skilled chefs who infuse each 
+                    dish with creativity and expertise to our attentive servers who ensure every guest feels valued and 
+                    cared for, every member of our team plays a vital role in bringing the Mario's vision to life. 
+                    With a commitment to professionalism, integrity, and teamwork, we strive to exceed expectations 
+                    and set new standards of excellence in hospitality. Behind every meal, there is a story, and behind 
+                    every smile, there is a team of individuals working tirelessly to make it unforgettable. 
+                    We invite you to meet the faces behind the flavors and discover the heart and soul of Mario's.</p>
+                    <h3>Our values</h3>
+                    <p>At Mario's, our values serve as the cornerstone of everything we do, guiding our decisions and actions 
+                        as we strive to create meaningful connections with our guests and community. We believe in the power 
+                        of hospitality to foster warmth and belonging, creating spaces where everyone feels welcome and 
+                        valued. With a steadfast commitment to quality, integrity, and innovation, we continually push the 
+                        boundaries of culinary excellence, seeking to delight and inspire our patrons with every dish we 
+                        serve. As stewards of the environment, we are dedicated to sustainable practices that minimize our 
+                        ecological footprint and contribute to the well-being of our planet. At Mario's, our values aren't 
+                        just words on a page – they're the guiding principles that shape our identity and define our legacy.</p>
+                        <h3>Sustainability effort</h3>
+                        <p>t Mario's, we are deeply committed to sustainability, recognizing our responsibility to protect the 
+                            planet for future generations while also nourishing our guests with wholesome, thoughtfully-prepared 
+                            cuisine. From sourcing locally-grown produce to reducing waste through innovative practices, we 
+                            strive to minimize our environmental impact at every stage of the culinary journey. By partnering 
+                            with eco-conscious suppliers and implementing green initiatives in our operations, we are proud to 
+                            play a role in preserving the natural beauty and bounty of our planet. Through education, advocacy, 
+                            and action, we seek to inspire others to join us in our mission to create a more sustainable future. 
+                            At Mario's, sustainability isn't just a goal – it's a way of life, woven into the fabric of everything we do.</p>
+    </section>
+
+        <h1>Membership form</h1>
+        <form class="contact-form">
+            <div>
+            <label for="username">User name</label>
+            <input type="text" id="username" name="username" placeholder="name" required><br><br>
+        </div>
+        <div>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="E-mail"required><br><br>
+        </div>
+        <div>
+            <label for="password">Passwor</label>
+            <input type="password" id="password" name="password" placeholder="password"required><br><br>
+        </div>
+        <div>
+            <p><strong>Select your sex</strong></p>
+            <input type="radio" name="gender" value="male">male <br>
+            <input type="radio" name="gender" value="female">female <br>
+            <input type="radio" name="gender" value="other">other <br>
+        </div>
+        <div>
+            <p><strong>Select your age</strong></p>
+            <input type="radio" name="age" value="0-18">0-18 <br>
+            <input type="radio" name="age" value="18-35">18-35 <br>
+            <input type="radio" name="age" value="35+">35+<br>
+        </div>
+            <br><br>
+            <div>
+            <label > Security question</label>
+            <select name="question" id="question">
+                <option value="q1">Are you saved?</option>
+                <option value="q2">What makes you think you're saved?</option>
+            </select><br><br>
+                <label for="answer">Security question answer</label><br>
+                <input type="text" id="answer" name="answer"><br><br>
+            </div>
+            <div>
+                <label for="bio">Your bio</label><br>
+                <textarea name="bio" id="bio" cols="30" rows="10" placeholder="about you......"></textarea>
+                <br><br>
+            </div>
+            <div>
+                <input type="submit" value="submit the form">
+            </div>
+        </form>
+<footer>
+    <p>&copy; 2024 Mario Fan Website</p>
+</footer>
+</body>
+</html>
